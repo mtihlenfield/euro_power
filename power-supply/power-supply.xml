@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/strav/devel/diy-synth/power-supply/power-supply/power-supply.kicad_sch</source>
-    <date>Wed 20 Apr 2022 11:44:03 PM EDT</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <date>Thu 19 May 2022 08:36:32 AM EDT</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Eurorack Power Supply</title>
@@ -27,16 +27,36 @@
     <comp ref="C1">
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1635f522-4106-431e-87cd-0f568dc3816f</tstamps>
     </comp>
     <comp ref="C2">
-      <value>7400uF</value>
+      <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,7 +65,17 @@
     <comp ref="C3">
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +84,17 @@
     <comp ref="C4">
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +103,17 @@
     <comp ref="C5">
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +122,17 @@
     <comp ref="C6">
       <value>4700uF</value>
       <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">JB Capacitors</field>
+        <field name="Manufacturer Part No.">JRB1E472M07501600250000B</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1077</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manufacturer" value="JB Capacitors"/>
+      <property name="Manufacturer Part No." value="JRB1E472M07501600250000B"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1077"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,7 +141,17 @@
     <comp ref="C7">
       <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part No.">1uF 35V Radial Capacitor Tantalum</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-265 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="Manufacturer Part No." value="1uF 35V Radial Capacitor Tantalum"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-265 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,7 +160,17 @@
     <comp ref="C8">
       <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part No.">1uF 35V Radial Capacitor Tantalum</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-265 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="Manufacturer Part No." value="1uF 35V Radial Capacitor Tantalum"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-265 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,7 +179,17 @@
     <comp ref="C9">
       <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part No.">1uF 35V Radial Capacitor Tantalum</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-265 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="Manufacturer Part No." value="1uF 35V Radial Capacitor Tantalum"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-265 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,7 +198,17 @@
     <comp ref="C10">
       <value>1uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part No.">1uF 35V Radial Capacitor Tantalum</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-265 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="Manufacturer Part No." value="1uF 35V Radial Capacitor Tantalum"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-265 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,8 +217,17 @@
     <comp ref="D1">
       <value>1N4007</value>
       <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
-      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">EIC</field>
+        <field name="Manufacturer Part No.">1N4007</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-155</field>
+      </fields>
       <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-155"/>
+      <property name="Manufacturer" value="EIC"/>
+      <property name="Manufacturer Part No." value="1N4007"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -127,53 +236,74 @@
     <comp ref="D2">
       <value>1N4007</value>
       <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
-      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">EIC</field>
+        <field name="Manufacturer Part No.">1N4007</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-155</field>
+      </fields>
       <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-155"/>
+      <property name="Manufacturer" value="EIC"/>
+      <property name="Manufacturer Part No." value="1N4007"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a991215c-d7f8-4d74-b4fb-3a6d0eed12fe</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <fields>
+        <field name="Manufacturer">005A1INW</field>
+        <field name="Manufacturer Part No.">Tayda</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1486 </field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Manufacturer" value="005A1INW"/>
+      <property name="Manufacturer Part No." value="Tayda"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1486 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>267be05a-0275-4937-bf0c-a7a54781ce5a</tstamps>
+      <tstamps>e93cb552-fe54-47af-910c-a45b1d4d36e6</tstamps>
     </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+    <comp ref="HS2">
+      <value>Heatsink</value>
+      <fields>
+        <field name="Manufacturer">005A1INW</field>
+        <field name="Manufacturer Part No.">Tayda</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-1486 </field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Manufacturer" value="005A1INW"/>
+      <property name="Manufacturer Part No." value="Tayda"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-1486 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f99c3f99-0276-4c82-be07-360c6db605dc</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="power-supply.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b05de7ca-a659-467a-84b1-52a60302fca4</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="power-supply.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0f3207b0-7da8-4cc7-88c9-dbc35be7963c</tstamps>
+      <tstamps>0a49b140-cfdc-4d5d-9027-358b581f3490</tstamps>
     </comp>
     <comp ref="J1">
       <value>Barrel_Jack_Switch</value>
       <footprint>WEALTH_METAL_Barrel_Jacks:BarrelJack_Horizontal_2.1mm_WEALTH_METAL</footprint>
+      <fields>
+        <field name="Manufacturer">WEALTH METAL</field>
+        <field name="Manufacturer Part No.">DC Power Jack 2.1mm</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-4118</field>
+      </fields>
       <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-4118"/>
+      <property name="Manufacturer" value="WEALTH METAL"/>
+      <property name="Manufacturer Part No." value="DC Power Jack 2.1mm"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -182,7 +312,17 @@
     <comp ref="J2">
       <value>Output</value>
       <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <fields>
+        <field name="Manufacturer">DEGSON</field>
+        <field name="Manufacturer Part No.">DG126-03P</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-663 </field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Manufacturer" value="DEGSON"/>
+      <property name="Manufacturer Part No." value="DG126-03P"/>
+      <property name="Supplier Part No." value="A-663 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -191,8 +331,17 @@
     <comp ref="U1">
       <value>LM7812_TO220</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
-      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No.">L7812CV</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-207 </field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM7812_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part No." value="L7812CV"/>
+      <property name="Supplier Part No." value="A-207 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -201,8 +350,17 @@
     <comp ref="U2">
       <value>LM7912_TO220</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
-      <datasheet>hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No.">L7912CV</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-505 </field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM7912_TO220" description="Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part No." value="L7912CV"/>
+      <property name="Supplier Part No." value="A-505 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="power-supply.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -292,6 +450,18 @@
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+        <field name="Datasheet">~</field>
+      </fields>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
