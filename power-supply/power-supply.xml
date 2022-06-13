@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>/home/strav/devel/diy-synth/power-supply/power-supply/power-supply.kicad_sch</source>
-    <date>Thu 19 May 2022 08:36:32 AM EDT</date>
+    <date>Sun 12 Jun 2022 10:27:01 PM EDT</date>
     <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Eurorack Power Supply</title>
         <company>Northride Synth</company>
-        <rev>rev1</rev>
+        <rev>rev2</rev>
         <date/>
         <source>power-supply.kicad_sch</source>
         <comment number="1" value=""/>
@@ -139,7 +139,7 @@
       <tstamps>8d4e98cf-c06f-40ce-8148-6bee6d011099</tstamps>
     </comp>
     <comp ref="C7">
-      <value>1uF</value>
+      <value>0.33uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
       <fields>
         <field name="Manufacturer">AVX</field>
@@ -158,7 +158,7 @@
       <tstamps>3fa18a7a-a8a1-4e42-8db6-df497d4fd410</tstamps>
     </comp>
     <comp ref="C8">
-      <value>1uF</value>
+      <value>2.2uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
       <fields>
         <field name="Manufacturer">AVX</field>
@@ -177,7 +177,7 @@
       <tstamps>21e23f07-8d24-4f98-82ce-0948f29f5061</tstamps>
     </comp>
     <comp ref="C9">
-      <value>1uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm</footprint>
       <fields>
         <field name="Manufacturer">AVX</field>
@@ -252,6 +252,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a991215c-d7f8-4d74-b4fb-3a6d0eed12fe</tstamps>
     </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">EIC</field>
+        <field name="Manufacturer Part No.">1N4007</field>
+        <field name="Supplier">Tayda</field>
+        <field name="Supplier Part No.">A-155</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Supplier" value="Tayda"/>
+      <property name="Supplier Part No." value="A-155"/>
+      <property name="Manufacturer" value="EIC"/>
+      <property name="Manufacturer Part No." value="1N4007"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1aa1fe9-0169-4627-9d3a-175848adf2ee</tstamps>
+    </comp>
     <comp ref="HS1">
       <value>Heatsink</value>
       <fields>
@@ -311,7 +330,7 @@
     </comp>
     <comp ref="J2">
       <value>Output</value>
-      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <footprint>DEGSON_Screw_Terminals:DG126</footprint>
       <fields>
         <field name="Manufacturer">DEGSON</field>
         <field name="Manufacturer Part No.">DG126-03P</field>
@@ -552,6 +571,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="Net-(C2-Pad2)">
@@ -564,6 +584,7 @@
     </net>
     <net code="4" name="Net-(C9-Pad1)">
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
     </net>
